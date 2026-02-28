@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike Miller Development — Senior Scrum Master | Agile Mentorship &amp; Consulting</title>
+    <meta name="description" content="Mike Miller is a Senior Scrum Master and Agile consultant with 8+ years leading transformations at Google, Kroger, Midmark, and SAIC. Book 1-on-1 agile mentorship or custom project solutions.">
+    <meta name="keywords" content="Scrum Master, Agile Coach, Agile Mentorship, SAFe, Monte Carlo Forecasting, Scrum Master Mentor, Agile Consulting, Mike Miller Development">
+    <meta property="og:title" content="Mike Miller Development — Senior Scrum Master | Agile Mentorship">
+    <meta property="og:description" content="Senior Scrum Master with 8+ years transforming delivery at Google, Kroger, Midmark, and SAIC. 1-on-1 mentorship and custom agile solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mikemillerdevelopment.com">
+    <meta property="og:image" content="https://mikemillerdevelopment.com/og-image.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Mike Miller Development">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mike Miller Development — Senior Scrum Master">
+    <meta name="twitter:description" content="Agile mentorship and consulting. Clarity. Accuracy. Results.">
+    <meta name="twitter:image" content="https://mikemillerdevelopment.com/og-image.png">
+    <meta name="author" content="Mike Miller">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="canonical" href="https://mikemillerdevelopment.com">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Sora:wght@400;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+    <noscript><style>.fi { opacity: 1; transform: none; }</style></noscript>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Mike Miller Development",
+        "url": "https://www.mikemillerdevelopment.com",
+        "description": "Senior Scrum Master offering agile mentorship, consulting, and custom project solutions.",
+        "founder": {
+            "@type": "Person",
+            "name": "Mike Miller",
+            "jobTitle": "Senior Scrum Master and Agile Consultant",
+            "knowsAbout": ["Scrum", "SAFe", "Kanban", "LeSS", "Monte Carlo Forecasting", "Agile Coaching", "CI/CD", "BDD", "TDD"]
+        },
+        "areaServed": "Worldwide",
+        "serviceType": ["Agile Mentorship", "Scrum Master Coaching", "Agile Consulting", "Custom Project Solutions"],
+        "priceRange": "$150/hour"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mike Miller",
+        "url": "https://www.mikemillerdevelopment.com",
+        "sameAs": ["https://www.linkedin.com/in/mikemillerpro/"],
+        "jobTitle": "Senior Scrum Master",
+        "worksFor": { "@type": "Organization", "name": "Mike Miller Development" },
+        "knowsAbout": ["Scrum", "SAFe", "Kanban", "LeSS", "Agile", "Monte Carlo Simulation", "BDD", "TDD", "DevOps", "CI/CD"]
+    }
+    </script>
+    <!-- Google Analytics - Replace G-XXXXXXXXXX with your Measurement ID from analytics.google.com -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #111111;
+            --surface-2: #1a1a1a;
+            --border: #222222;
+            --border-light: #2a2a2a;
+            --text: #e4e4e7;
+            --text-mid: #a1a1aa;
+            --text-dim: #636369;
+            --purple: #a855f7;
+            --green: #34d399;
+            --teal: #5cc6b8;
+            --white: #fafafa;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background: var(--bg); color: var(--text);
+            line-height: 1.65; overflow-x: hidden;
+        }
+        img { max-width: 100%; height: auto; }
+        ::selection { background: var(--purple); color: #fff; }
+
+        /* NAV */
+        nav {
+            position: fixed; top: 0; width: 100%; z-index: 100;
+            background: rgba(10,10,10,0.85);
+            backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-inner {
+            max-width: 1080px; margin: 0 auto; padding: 0.85rem 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .nav-logo {
+            font-family: 'Sora', sans-serif;
+            text-decoration: none; display: flex; align-items: baseline; gap: 0.5rem;
+        }
+        .nav-logo-mark {
+            font-size: 1.1rem; font-weight: 700;
+            color: var(--white); letter-spacing: -0.03em;
+        }
+        .nav-logo-mark span { color: var(--purple); }
+        .nav-logo-sep { color: var(--border-light); font-weight: 300; font-size: 1rem; }
+        .nav-logo-name {
+            font-size: 0.7rem; font-weight: 500; color: var(--text-dim);
+            letter-spacing: 0.08em; text-transform: uppercase;
+        }
+        .nav-links { display: flex; gap: 1.75rem; align-items: center; }
+        .nav-links a {
+            text-decoration: none; color: var(--text-dim);
+            font-size: 0.82rem; font-weight: 500; transition: color 0.2s;
+        }
+        .nav-links a:hover { color: var(--white); }
+        .nav-cta {
+            background: var(--purple) !important; color: #fff !important;
+            padding: 0.5rem 1.2rem; border-radius: 6px; font-weight: 600 !important;
+            transition: all 0.2s !important;
+        }
+        .nav-cta:hover { background: #9333ea !important; transform: translateY(-1px); }
+
+        /* HAMBURGER */
+        .mobile-toggle {
+            display: none; background: none; border: none;
+            cursor: pointer; padding: 0.5rem;
+            width: 40px; height: 40px; position: relative; z-index: 200;
+        }
+        .mobile-toggle span {
+            display: block; width: 20px; height: 1.5px;
+            background: var(--text-mid); position: absolute; left: 10px;
+            transition: all 0.3s ease;
+        }
+        .mobile-toggle span:nth-child(1) { top: 12px; }
+        .mobile-toggle span:nth-child(2) { top: 19px; }
+        .mobile-toggle span:nth-child(3) { top: 26px; }
+        .mobile-toggle.open span:nth-child(1) { top: 19px; transform: rotate(45deg); }
+        .mobile-toggle.open span:nth-child(2) { opacity: 0; }
+        .mobile-toggle.open span:nth-child(3) { top: 19px; transform: rotate(-45deg); }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh; display: flex; align-items: center;
+            padding: 7rem 2rem 4rem; position: relative;
+        }
+        .hero::after {
+            content: ''; position: absolute; top: 0; right: -10%;
+            width: 50%; height: 70%;
+            background: radial-gradient(ellipse at center, rgba(168,85,247,0.05) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero-inner {
+            max-width: 1080px; margin: 0 auto; width: 100%;
+            position: relative; z-index: 1;
+        }
+        .hero-tag {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            background: var(--surface-2); border: 1px solid var(--border);
+            padding: 0.35rem 1rem; border-radius: 20px;
+            font-size: 0.72rem; font-weight: 600; color: var(--green);
+            letter-spacing: 0.04em; margin-bottom: 1.5rem; text-transform: uppercase;
+        }
+        .hero-tag .dot {
+            width: 6px; height: 6px; background: var(--green);
+            border-radius: 50%; animation: pulse 2s infinite;
+        }
+        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+        .hero h1 {
+            font-family: 'Sora', sans-serif;
+            font-size: clamp(2.4rem, 5.5vw, 4rem);
+            line-height: 1.08; letter-spacing: -0.04em;
+            font-weight: 700; max-width: 700px; margin-bottom: 1.25rem;
+        }
+        .hero h1 .hl {
+            background: linear-gradient(135deg, var(--purple), var(--teal));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-sub {
+            font-size: 1.05rem; color: var(--text-mid);
+            max-width: 500px; margin-bottom: 2.25rem;
+            font-weight: 300; line-height: 1.75;
+        }
+        .hero-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+        .btn {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 0.8rem 1.6rem; border-radius: 6px;
+            text-decoration: none; font-weight: 600;
+            font-size: 0.88rem; transition: all 0.2s;
+            cursor: pointer; border: none;
+        }
+        .btn-primary { background: var(--purple); color: #fff; }
+        .btn-primary:hover {
+            background: #9333ea; transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(168,85,247,0.25);
+        }
+        .btn-ghost {
+            background: transparent; color: var(--text-mid);
+            border: 1px solid var(--border);
+        }
+        .btn-ghost:hover { border-color: var(--text-mid); color: var(--white); }
+
+        /* TRUSTED */
+        .trusted {
+            padding: 3rem 2rem 4rem;
+            border-top: 1px solid var(--border);
+        }
+        .trusted-label {
+            font-size: 0.62rem; font-weight: 700;
+            letter-spacing: 0.16em; text-transform: uppercase;
+            color: var(--text-dim); text-align: center; margin-bottom: 2rem;
+        }
+        .trusted-logos {
+            display: flex; justify-content: center; align-items: center;
+            gap: 3rem; flex-wrap: wrap;
+            max-width: 900px; margin: 0 auto;
+        }
+        .trusted-name {
+            font-family: 'Sora', sans-serif;
+            font-size: 1.2rem; font-weight: 700;
+            color: var(--text-dim); letter-spacing: -0.02em;
+            transition: color 0.2s;
+        }
+        .trusted-item:hover .trusted-name { color: var(--text-mid); }
+        .trusted-divider { width: 1px; height: 28px; background: var(--border); }
+
+        /* CERTS */
+        .certs { padding: 3rem 2rem 5rem; }
+        .certs-label {
+            font-size: 0.62rem; font-weight: 700;
+            letter-spacing: 0.16em; text-transform: uppercase;
+            color: var(--text-dim); text-align: center; margin-bottom: 2rem;
+        }
+        .certs-grid {
+            display: flex; justify-content: center;
+            gap: 1rem; flex-wrap: wrap;
+            max-width: 1000px; margin: 0 auto;
+        }
+        .cert-badge {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 8px; padding: 1rem 1.25rem;
+            display: flex; align-items: center; gap: 0.75rem;
+            transition: all 0.2s; min-width: 200px;
+        }
+        .cert-badge:hover {
+            border-color: var(--border-light); transform: translateY(-1px);
+        }
+        .cert-icon {
+            min-width: 40px; height: 36px; border-radius: 6px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.6rem; font-weight: 800;
+            letter-spacing: 0.01em; flex-shrink: 0;
+            color: #fff; padding: 0 0.35rem; white-space: nowrap;
+        }
+        .cert-icon.sa { background: linear-gradient(135deg, #0073b7, #00a5e0); }
+        .cert-icon.sf { background: linear-gradient(135deg, #4a7c59, #6ab04c); }
+        .cert-icon.ic { background: linear-gradient(135deg, #e8590c, #f7931e); }
+        .cert-info { display: flex; flex-direction: column; }
+        .cert-name { font-size: 0.82rem; font-weight: 600; color: var(--white); line-height: 1.2; }
+        .cert-issuer { font-size: 0.68rem; color: var(--text-dim); font-weight: 400; }
+
+        /* SECTIONS */
+        section { padding: 5.5rem 2rem; }
+        .container { max-width: 1080px; margin: 0 auto; }
+        .sl {
+            font-size: 0.68rem; font-weight: 700;
+            letter-spacing: 0.14em; text-transform: uppercase;
+            color: var(--purple); margin-bottom: 0.6rem;
+        }
+        .st {
+            font-family: 'Sora', sans-serif;
+            font-size: clamp(1.7rem, 3.5vw, 2.2rem);
+            line-height: 1.15; letter-spacing: -0.03em;
+            font-weight: 700; color: var(--white); margin-bottom: 0.6rem;
+        }
+        .sd {
+            color: var(--text-mid); font-size: 0.95rem;
+            font-weight: 300; line-height: 1.7; max-width: 520px;
+        }
+
+        /* ABOUT */
+        .about { border-top: 1px solid var(--border); }
+        .about-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 3.5rem; align-items: start;
+        }
+        .about-text p {
+            color: var(--text-mid); font-weight: 300;
+            line-height: 1.8; margin-bottom: 0.9rem; font-size: 0.92rem;
+        }
+        .about-text strong { color: var(--white); font-weight: 600; }
+        .tag-row { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 1.25rem; }
+        .tag {
+            background: var(--surface-2); border: 1px solid var(--border);
+            padding: 0.28rem 0.75rem; border-radius: 4px;
+            font-size: 0.72rem; font-weight: 500; color: var(--text-dim);
+        }
+
+        /* SERVICES */
+        .services { border-top: 1px solid var(--border); }
+        .services-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr);
+            gap: 1rem; margin-top: 2.5rem;
+        }
+        .sc {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 8px; padding: 1.75rem 1.5rem;
+            transition: all 0.25s; position: relative; overflow: hidden;
+        }
+        .sc::before {
+            content: ''; position: absolute; top: 0; left: 0;
+            width: 100%; height: 2px;
+            background: linear-gradient(90deg, var(--purple), var(--teal));
+            opacity: 0; transition: opacity 0.3s;
+        }
+        .sc:hover::before { opacity: 1; }
+        .sc:hover { border-color: var(--border-light); transform: translateY(-2px); }
+        .sc h3 {
+            font-family: 'Sora', sans-serif;
+            font-size: 1.05rem; font-weight: 600;
+            color: var(--white); margin-bottom: 0.5rem;
+        }
+        .sc p {
+            color: var(--text-dim); font-size: 0.85rem;
+            font-weight: 300; line-height: 1.65; margin-bottom: 1.25rem;
+        }
+        .sc-price {
+            font-family: 'Sora', sans-serif;
+            font-size: 1.2rem; font-weight: 700; color: var(--purple);
+        }
+        .sc-price span {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            font-size: 0.75rem; color: var(--text-dim); font-weight: 400;
+        }
+        .sc-label {
+            font-size: 0.72rem; font-weight: 600; color: var(--green);
+            letter-spacing: 0.04em; text-transform: uppercase;
+        }
+        .wide-card {
+            grid-column: span 3;
+            display: grid; grid-template-columns: 1fr auto;
+            gap: 2rem; align-items: center;
+        }
+
+        /* TRACK RECORD */
+        .cred { border-top: 1px solid var(--border); }
+        .cred-row {
+            display: grid; grid-template-columns: repeat(4, 1fr);
+            gap: 1rem; margin-top: 2.5rem;
+        }
+        .cc {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 8px; padding: 1.5rem 1.25rem; transition: all 0.2s;
+        }
+        .cc:hover { border-color: var(--border-light); transform: translateY(-2px); }
+        .cc-n {
+            font-family: 'Sora', sans-serif;
+            font-size: 1.5rem; font-weight: 700;
+            color: var(--white); line-height: 1; margin-bottom: 0.4rem;
+        }
+        .cc-t { font-size: 0.78rem; color: var(--text-dim); line-height: 1.4; }
+        .chips { margin-top: 2.5rem; }
+        .chips-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+        .ch {
+            background: var(--surface); border: 1px solid var(--border);
+            padding: 0.4rem 0.9rem; border-radius: 4px;
+            font-size: 0.78rem; font-weight: 500; color: var(--text-dim);
+            transition: all 0.2s;
+        }
+        .ch:hover { border-color: var(--purple); color: var(--purple); }
+        .speak-row { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 0.6rem; }
+        .spk {
+            display: flex; align-items: center; gap: 0.5rem;
+            font-size: 0.85rem; color: var(--text-mid); font-weight: 500;
+        }
+        .spk-dot { width: 6px; height: 6px; background: var(--purple); border-radius: 50%; }
+
+        /* ARTICLES */
+        .articles { border-top: 1px solid var(--border); }
+        .articles-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr);
+            gap: 1rem; margin-top: 2.5rem;
+        }
+        .ac {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 8px; overflow: hidden;
+            text-decoration: none; color: inherit; transition: all 0.25s;
+        }
+        .ac:hover { border-color: var(--border-light); transform: translateY(-2px); }
+        .ac-bar { height: 3px; width: 100%; }
+        .ac-bar.bp { background: var(--purple); }
+        .ac-bar.bg { background: var(--teal); }
+        .ac-bar.bd { background: var(--text-dim); }
+        .ac-body { padding: 1.5rem; }
+        .ac-tag {
+            font-size: 0.62rem; font-weight: 700;
+            letter-spacing: 0.1em; text-transform: uppercase;
+            color: var(--purple); margin-bottom: 0.5rem;
+        }
+        .ac-body h3 {
+            font-family: 'Sora', sans-serif;
+            font-size: 0.98rem; line-height: 1.3;
+            font-weight: 600; color: var(--white); margin-bottom: 0.4rem;
+        }
+        .ac-body p {
+            color: var(--text-dim); font-size: 0.8rem;
+            font-weight: 300; line-height: 1.6;
+        }
+
+        /* CTA */
+        .cta {
+            border-top: 1px solid var(--border);
+            text-align: center; position: relative;
+        }
+        .cta::before {
+            content: ''; position: absolute; top: 0; left: 50%;
+            transform: translateX(-50%); width: 60%; height: 60%;
+            background: radial-gradient(ellipse at center, rgba(168,85,247,0.05) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .cta .container { max-width: 600px; position: relative; z-index: 1; }
+        .cta .sd { margin: 0 auto 2rem; }
+        .cta-email { margin-top: 1.25rem; }
+        .cta-email a {
+            color: var(--text-dim); text-decoration: none;
+            font-size: 0.9rem; font-weight: 400; transition: color 0.2s;
+        }
+        .cta-email a:hover { color: var(--teal); }
+        .cta-row {
+            display: flex; justify-content: center; gap: 2rem;
+            margin-top: 2.5rem; padding-top: 1.75rem;
+            border-top: 1px solid var(--border); flex-wrap: wrap;
+        }
+        .cta-item { font-size: 0.8rem; color: var(--text-dim); }
+        .cta-item strong {
+            display: block; color: var(--white);
+            font-size: 0.88rem; margin-bottom: 0.1rem;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: 1px solid var(--border); padding: 2.5rem 2rem;
+        }
+        .footer-inner {
+            max-width: 1080px; margin: 0 auto;
+            display: flex; justify-content: space-between;
+            align-items: center; flex-wrap: wrap; gap: 1rem;
+        }
+        .footer-brand { display: flex; align-items: center; gap: 0.6rem; }
+        .fl {
+            font-family: 'Sora', sans-serif;
+            font-size: 0.9rem; font-weight: 700; color: var(--text-dim);
+        }
+        .fl span { color: var(--purple); }
+        .footer-mid { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+        .footer-links { display: flex; gap: 1.5rem; }
+        .footer-links a {
+            color: var(--text-dim); text-decoration: none;
+            font-size: 0.78rem; transition: color 0.2s;
+        }
+        .footer-links a:hover { color: var(--white); }
+        .footer-email a {
+            color: var(--text-dim); text-decoration: none;
+            font-size: 0.75rem; transition: color 0.2s;
+        }
+        .footer-email a:hover { color: var(--teal); }
+        .fc { font-size: 0.72rem; color: var(--text-dim); }
+
+        /* ANIMATIONS */
+        .fi {
+            opacity: 0; transform: translateY(16px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        .fi.v { opacity: 1; transform: translateY(0); }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .nav-links { display: none; }
+            .nav-logo-name { display: none; }
+            .nav-logo-sep { display: none; }
+            .mobile-toggle { display: block; }
+            .nav-links.open {
+                display: flex; flex-direction: column;
+                position: absolute; top: 100%; left: 0; right: 0;
+                background: var(--bg); border-bottom: 1px solid var(--border);
+                padding: 1.5rem 2rem; gap: 0.25rem;
+            }
+            .nav-links.open a { padding: 0.65rem 0; font-size: 0.92rem; color: var(--text-mid); }
+            .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+            .cred-row { grid-template-columns: 1fr 1fr; }
+            .services-grid { grid-template-columns: 1fr; }
+            .wide-card { grid-column: span 1; grid-template-columns: 1fr; }
+            .wide-card > div:last-child { text-align: left; }
+            .articles-grid { grid-template-columns: 1fr; }
+            .hero-proof { gap: 1rem; }
+            .cta-row { flex-direction: column; gap: 0.75rem; }
+            .footer-inner { flex-direction: column; text-align: center; }
+            .footer-brand { justify-content: center; }
+            .footer-mid { width: 100%; }
+            .footer-links { justify-content: center; flex-wrap: wrap; }
+            .trusted-logos { gap: 1.5rem; }
+            .trusted-divider { display: none; }
+            .trusted-name { font-size: 1rem; }
+            .certs-grid { gap: 0.75rem; }
+            .cert-badge { min-width: unset; }
+        }
+        @media (max-width: 600px) {
+            .hero { padding-top: 5.5rem; min-height: auto; }
+            .hero h1 { font-size: 2rem; }
+            .hero-sub { font-size: 0.95rem; }
+            section { padding: 3.5rem 1.25rem; }
+            .trusted { padding: 2rem 1.25rem 3rem; }
+            .certs { padding: 2rem 1.25rem 3.5rem; }
+            .cert-badge { min-width: unset; flex: 1 1 calc(50% - 0.5rem); padding: 0.75rem; }
+            .cert-name { font-size: 0.75rem; }
+            .cert-issuer { font-size: 0.62rem; }
+            .cred-row { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+            .cc { padding: 1.25rem 1rem; }
+            .cc-n { font-size: 1.3rem; }
+            .hero-proof { flex-direction: column; gap: 0.6rem; }
+            .chips-row { gap: 0.3rem; }
+            .ch { font-size: 0.72rem; padding: 0.35rem 0.7rem; }
+            .speak-row { flex-direction: column; gap: 0.6rem; }
+            .tag-row { gap: 0.3rem; }
+            .tag { font-size: 0.68rem; }
+            .footer-links { gap: 1rem; }
+        }
+        @media (max-width: 380px) {
+            .hero h1 { font-size: 1.75rem; }
+            .btn { padding: 0.75rem 1.2rem; font-size: 0.82rem; }
+            .cert-badge { flex: 1 1 100%; }
+            .cred-row { grid-template-columns: 1fr; }
+            .trusted-name { font-size: 0.88rem; }
+            .nav-inner { padding: 0.85rem 1.25rem; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a href="#" class="nav-logo">
+            <span class="nav-logo-mark">MMD<span>.</span></span>
+            <span class="nav-logo-sep">&mdash;</span>
+            <span class="nav-logo-name">Mike Miller Development</span>
+        </a>
+        <div class="nav-links" id="navLinks" role="navigation" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#track-record">Results</a>
+            <a href="#articles">Articles</a>
+            <a href="#book" class="nav-cta">Book a Session</a>
+        </div>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-inner fi">
+        <div class="hero-tag"><span class="dot"></span> Available for Mentorship &amp; Projects</div>
+        <h1>Agile delivery.<br><span class="hl">Clarity. Accuracy. Results.</span></h1>
+        <p class="hero-sub">Senior Scrum Master with 8+ years transforming how teams build and ship. I offer 1-on-1 mentorship and custom solutions that give your projects insane clarity and visibility.</p>
+        <div class="hero-actions">
+            <a href="#book" class="btn btn-primary">Book a Session &rarr;</a>
+            <a href="#services" class="btn btn-ghost">View Services</a>
+        </div>
+    </div>
+</section>
+
+<div class="trusted fi">
+    <div class="trusted-label">Trusted by teams at</div>
+    <div class="trusted-logos">
+        <div class="trusted-item"><span class="trusted-name">Google</span></div>
+        <div class="trusted-divider"></div>
+        <div class="trusted-item"><span class="trusted-name">Kroger</span></div>
+        <div class="trusted-divider"></div>
+        <div class="trusted-item"><span class="trusted-name">Midmark</span></div>
+        <div class="trusted-divider"></div>
+        <div class="trusted-item"><span class="trusted-name">SAIC</span></div>
+        <div class="trusted-divider"></div>
+        <div class="trusted-item"><span class="trusted-name">Marxent</span></div>
+        <div class="trusted-divider"></div>
+        <div class="trusted-item"><span class="trusted-name">84.51&deg;</span></div>
+    </div>
+</div>
+
+<div class="certs fi">
+    <div class="certs-label">Certified By</div>
+    <div class="certs-grid">
+        <div class="cert-badge">
+            <div class="cert-icon sa">CSM</div>
+            <div class="cert-info">
+                <span class="cert-name">Certified ScrumMaster</span>
+                <span class="cert-issuer">Scrum Alliance</span>
+            </div>
+        </div>
+        <div class="cert-badge">
+            <div class="cert-icon sa">A-CSM</div>
+            <div class="cert-info">
+                <span class="cert-name">Advanced Certified SM</span>
+                <span class="cert-issuer">Scrum Alliance</span>
+            </div>
+        </div>
+        <div class="cert-badge">
+            <div class="cert-icon sa">CSPO</div>
+            <div class="cert-info">
+                <span class="cert-name">Certified Scrum Product Owner</span>
+                <span class="cert-issuer">Scrum Alliance</span>
+            </div>
+        </div>
+        <div class="cert-badge">
+            <div class="cert-icon sf">SAFe</div>
+            <div class="cert-info">
+                <span class="cert-name">SAFe PO/PM &amp; Adv SM</span>
+                <span class="cert-issuer">Scaled Agile, Inc.</span>
+            </div>
+        </div>
+        <div class="cert-badge">
+            <div class="cert-icon ic">ACC</div>
+            <div class="cert-info">
+                <span class="cert-name">Agile Certified Coach</span>
+                <span class="cert-issuer">ICAgile</span>
+            </div>
+        </div>
+        <div class="cert-badge">
+            <div class="cert-icon" style="background: linear-gradient(135deg, #7c3aed, #a855f7);">LeSS</div>
+            <div class="cert-info">
+                <span class="cert-name">Large-Scale Scrum</span>
+                <span class="cert-issuer">The LeSS Company</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="fi">
+                <div class="sl">About</div>
+                <div class="st">I fix delivery. Then I teach you how.</div>
+            </div>
+            <div class="about-text fi">
+                <p>I've spent my career in the hardest rooms &mdash; <strong>government, medical devices, fintech, retail</strong> &mdash; turning chaotic delivery into something predictable and repeatable.</p>
+                <p>I've restructured monolithic dev groups into cross-functional teams, rescued projects months behind schedule at Google, facilitated SAFe PI Planning for 100+ people at Midmark, and built release governance in high-security environments at SAIC.</p>
+                <p>That's the experience behind every mentoring session I run and every solution I build. <strong>No theory. No fluff. Just what works.</strong></p>
+                <div class="tag-row">
+                    <span class="tag">Scrum</span>
+                    <span class="tag">SAFe</span>
+                    <span class="tag">Kanban</span>
+                    <span class="tag">LeSS</span>
+                    <span class="tag">Monte Carlo</span>
+                    <span class="tag">BDD / TDD</span>
+                    <span class="tag">CI/CD</span>
+                    <span class="tag">Flow Metrics</span>
+                    <span class="tag">DevOps</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="container">
+        <div class="fi">
+            <div class="sl">Services</div>
+            <div class="st">What I offer</div>
+            <p class="sd">Mentorship tailored to your level, plus custom-built tools that make your project impossible to lose track of.</p>
+        </div>
+        <div class="services-grid">
+            <div class="sc fi">
+                <h3>Foundations Mentorship</h3>
+                <p>For new or aspiring Scrum Masters. PBI writing, sprint ceremonies, backlog refinement, and the day-to-day of running Scrum well.</p>
+                <div class="sc-price">$150 <span>/ hour</span></div>
+            </div>
+            <div class="sc fi">
+                <h3>Advanced Practice</h3>
+                <p>Monte Carlo forecasting, flow metrics, cycle time optimization. Move from gut-feel estimates to data-driven predictability.</p>
+                <div class="sc-price">$150 <span>/ hour</span></div>
+            </div>
+            <div class="sc fi">
+                <h3>Organizational Agility</h3>
+                <p>Stakeholder dynamics, cross-team dependencies, agile adoption at scale. Lead change that actually sticks.</p>
+                <div class="sc-price">$150 <span>/ hour</span></div>
+            </div>
+        </div>
+        <div class="services-grid" style="margin-top: 1rem;">
+            <div class="sc fi wide-card">
+                <div>
+                    <div class="sc-label" style="margin-bottom: 0.75rem;">Coming Soon</div>
+                    <h3 style="font-size: 1.2rem;">Custom Project Solutions</h3>
+                    <p style="margin-bottom: 0;">Bespoke apps and dashboards tailored to your team &mdash; built for clarity, visibility, and control. Sprint tracking, forecasting tools, stakeholder dashboards, and more. If your project needs it, I'll build it.</p>
+                </div>
+                <div style="text-align: right;">
+                    <div class="sc-label">Pricing</div>
+                    <div style="color: var(--text-mid); font-size: 0.88rem; margin-top: 0.25rem;">Scoped per project</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cred" id="track-record">
+    <div class="container">
+        <div class="fi">
+            <div class="sl">Track Record</div>
+            <div class="st">Real results, real organizations</div>
+        </div>
+        <div class="cred-row">
+            <div class="cc fi"><div class="cc-n">39%</div><div class="cc-t">Throughput increase at SAIC in year one</div></div>
+            <div class="cc fi"><div class="cc-n">12%</div><div class="cc-t">Cycle time reduction through workflow restructuring</div></div>
+            <div class="cc fi"><div class="cc-n">100+</div><div class="cc-t">IT professionals facilitated in SAFe PI Planning</div></div>
+            <div class="cc fi"><div class="cc-n">$1.4M</div><div class="cc-t">Proposal led and successfully delivered</div></div>
+        </div>
+        <div class="chips fi">
+            <div class="sl">Industries</div>
+            <div class="chips-row">
+                <span class="ch">Government &amp; Defense</span>
+                <span class="ch">Medical Devices &amp; IoT</span>
+                <span class="ch">Fintech</span>
+                <span class="ch">Retail &amp; Grocery</span>
+                <span class="ch">VR / AR</span>
+                <span class="ch">ERP &amp; SAP</span>
+                <span class="ch">Insurance</span>
+                <span class="ch">Startups</span>
+            </div>
+        </div>
+        <div class="chips fi">
+            <div class="sl">Speaking</div>
+            <div class="speak-row">
+                <div class="spk"><span class="spk-dot"></span> Taste of IT</div>
+                <div class="spk"><span class="spk-dot"></span> AgileCincy</div>
+                <div class="spk"><span class="spk-dot"></span> GE Agile Day</div>
+                <div class="spk"><span class="spk-dot"></span> First Technology CIO Roundtable</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="articles" id="articles">
+    <div class="container">
+        <div class="fi">
+            <div class="sl">Articles</div>
+            <div class="st">Writing on agile practice</div>
+        </div>
+        <div class="articles-grid">
+            <a href="#" class="ac fi">
+                <div class="ac-bar bp"></div>
+                <div class="ac-body">
+                    <div class="ac-tag">Forecasting</div>
+                    <h3>Why Your Sprint Velocity Is Lying to You</h3>
+                    <p>Most teams treat velocity as a commitment tool. Monte Carlo tells you what velocity can't.</p>
+                </div>
+            </a>
+            <a href="#" class="ac fi">
+                <div class="ac-bar bg"></div>
+                <div class="ac-body">
+                    <div class="ac-tag" style="color:var(--teal)">Fundamentals</div>
+                    <h3>Writing PBIs That Actually Get Done</h3>
+                    <p>A practical guide to backlog items that are clear, testable, and worth building.</p>
+                </div>
+            </a>
+            <a href="#" class="ac fi">
+                <div class="ac-bar bd"></div>
+                <div class="ac-body">
+                    <div class="ac-tag" style="color:var(--text-dim)">Leadership</div>
+                    <h3>The Scrum Master's Role in Org Change</h3>
+                    <p>Moving from team-level facilitation to enterprise-level impact.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="cta" id="book">
+    <div class="container fi">
+        <div class="sl" style="color: var(--green);">Let's go</div>
+        <div class="st">Book a session</div>
+        <p class="sd">Remote. One-on-one. Built around whatever you're working through right now.</p>
+        <a id="ctaBtn" href="#" class="btn btn-primary" style="margin-top: 0.5rem;">Get Started &mdash; $150/hr &rarr;</a>
+        <div class="cta-email">
+            <a id="ctaEmail" href="#">Loading...</a>
+        </div>
+        <div class="cta-row">
+            <div class="cta-item"><strong>$150 / hour</strong>No surprises</div>
+            <div class="cta-item"><strong>Remote</strong>Video, your schedule</div>
+            <div class="cta-item"><strong>All levels</strong>New SM &rarr; Org leader</div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="fl">MMD<span>.</span></span>
+        </div>
+        <div class="footer-mid">
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#track-record">Results</a>
+                <a href="#articles">Articles</a>
+                <a href="https://www.linkedin.com/in/mikemillerpro/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            <div class="footer-email">
+                <a id="footerEmail" href="#">Loading...</a>
+            </div>
+        </div>
+        <div class="fc">&copy; 2026 Mike Miller Development</div>
+    </div>
+</footer>
+
+<script>
+    // Email - built via JS to prevent Cloudflare obfuscation from breaking the page
+    (function(){
+        var u = 'mike', d = 'mikemillerdevelopment.com', e = u + '@' + d;
+        var ml = 'mai' + 'lto:';
+        document.getElementById('ctaBtn').href = ml + e + '?subject=Mentorship%20Inquiry';
+        document.getElementById('ctaEmail').href = ml + e;
+        document.getElementById('ctaEmail').textContent = e;
+        document.getElementById('footerEmail').href = ml + e;
+        document.getElementById('footerEmail').textContent = e;
+    })();
+
+    // Mobile menu
+    var toggle = document.getElementById('mobileToggle');
+    var links = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', function() {
+        toggle.classList.toggle('open');
+        links.classList.toggle('open');
+    });
+
+    var navAnchors = links.querySelectorAll('a');
+    for (var i = 0; i < navAnchors.length; i++) {
+        navAnchors[i].addEventListener('click', function() {
+            toggle.classList.remove('open');
+            links.classList.remove('open');
+        });
+    }
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('nav') && links.classList.contains('open')) {
+            toggle.classList.remove('open');
+            links.classList.remove('open');
+        }
+    });
+
+    // Scroll animations
+    var obs = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+            if (e.isIntersecting) e.target.classList.add('v');
+        });
+    }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
+
+    var fadeEls = document.querySelectorAll('.fi');
+    for (var j = 0; j < fadeEls.length; j++) {
+        obs.observe(fadeEls[j]);
+    }
+</script>
+</body>
+</html>

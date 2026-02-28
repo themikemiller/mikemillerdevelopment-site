@@ -1,0 +1,2 @@
+# Redirect www to apex domain
+https://www.mikemillerdevelopment.com/* https://mikemillerdevelopment.com/:splat 301!

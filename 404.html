@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found — Mike Miller Development</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #111111;
+            --border: #222222;
+            --text: #e4e4e7;
+            --text-mid: #a1a1aa;
+            --text-dim: #636369;
+            --purple: #a855f7;
+            --white: #fafafa;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background: var(--bg); color: var(--text);
+            min-height: 100vh; display: flex; align-items: center;
+            justify-content: center; text-align: center; padding: 2rem;
+        }
+        .wrap { max-width: 480px; }
+        .code {
+            font-family: 'Sora', sans-serif;
+            font-size: 5rem; font-weight: 700;
+            background: linear-gradient(135deg, var(--purple), #5cc6b8);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text; line-height: 1; margin-bottom: 1rem;
+        }
+        h1 {
+            font-family: 'Sora', sans-serif;
+            font-size: 1.4rem; font-weight: 600;
+            color: var(--white); margin-bottom: 0.75rem;
+        }
+        p {
+            color: var(--text-mid); font-size: 0.95rem;
+            font-weight: 300; line-height: 1.7; margin-bottom: 2rem;
+        }
+        a {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 0.8rem 1.6rem; border-radius: 6px;
+            text-decoration: none; font-weight: 600; font-size: 0.88rem;
+            background: var(--purple); color: #fff; transition: all 0.2s;
+        }
+        a:hover {
+            background: #9333ea; transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(168,85,247,0.25);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="code">404</div>
+        <h1>Page not found</h1>
+        <p>The page you're looking for doesn't exist or has been moved. Let's get you back on track.</p>
+        <a href="/">Back to Home &rarr;</a>
+    </div>
+</body>
+</html>
